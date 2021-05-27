@@ -18,26 +18,8 @@ class Couple(object):
     def __init__(self) -> None:
         """初始化"""
         pass
-
-    def __init__(self,distance,gameRate,iceRate,type) -> None:
-        """初始化
-        
-        约会对象类初始化
-
-        Args:
-            distance: float 飞行距离
-            gameRate: float 情侣游戏时间 率
-            iceRate: float 情侣冰淇淋 率
-            type: Type 约会类型
-        Raises:
-            TypeError     
-        """
-        self.distance=distance
-        self.gameRate=gameRate
-        self.iceRate=iceRate
-        self.type=type
     
-    def __init__(self,ls) -> None:
+    def __init__(self,ls=[]) -> None:
         """初始化
         
         约会对象类初始化
