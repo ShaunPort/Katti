@@ -46,13 +46,6 @@ class Couple(object):
         """
         return 'distance:'+str(self.distance)+',gameRate:'+str(self.gameRate)+',iceRate:'+str(self.iceRate)+'\ntype:'+self.type
 
-
-
-
-
-
-
-
 if __name__=='__main__':
     a=Couple([1000,2,3,TYPE[1]])
     print(a)
